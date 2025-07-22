@@ -2,11 +2,11 @@ const scrollDisplay = document.getElementById('imgScroll');
 const displayImg = document.getElementById('imgMain');
 
 const images = [
-  './images/certificate1.png', 
-  './images/certificate2.png', 
-  './images/certificate3.png',
-  './images/certificate4.png',
-  './images/certificate5.png'
+  'https://raw.githubusercontent.com/smithatom78/smithas-certificate-gallery/main/certificate1.png', 
+  'https://raw.githubusercontent.com/smithatom78/smithas-certificate-gallery/main/certificate2.png', 
+  'https://raw.githubusercontent.com/smithatom78/smithas-certificate-gallery/main/certificate3.png',
+  'https://raw.githubusercontent.com/smithatom78/smithas-certificate-gallery/main/certificate4.png',
+  'https://raw.githubusercontent.com/smithatom78/smithas-certificate-gallery/main/certificate5.png'
 ];
 
 for (let i = 0; i < images.length; i++) {
