@@ -2,11 +2,11 @@ const scrollDisplay = document.getElementById('imgScroll');
 const displayImg = document.getElementById('imgMain');
 
 const images = [
-  './images/certificate1.jpeg', 
-  './images/certificate2.jpeg', 
-  './images/certificate3.jpeg',
-  './images/certificate4.jpeg',
-  './images/certificate5.jpeg'
+  './images/certificate1.png', 
+  './images/certificate2.png', 
+  './images/certificate3.png',
+  './images/certificate4.png',
+  './images/certificate5.png'
 ];
 
 for (let i = 0; i < images.length; i++) {
